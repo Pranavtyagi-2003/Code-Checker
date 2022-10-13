@@ -16,10 +16,18 @@
             <input type="input" class="form-field" placeholder="Enter the HTML Tags One By One" name="name" id='Value' required"/>
             <input type="input" class="form-field" placeholder="How Many Times It Should Present" name="freq" id='freq' required"/>
             <button type="submit" onclick="add()" class="submit-btn">Add</button>
-            <div class="enter-value">
-                <p id="data"></p>
-                <p id="number"></p>
-            </div>
+            <table class="table">
+                <tr style="background-color: black;color: white;">
+                    <th>Tags</th>
+                    <th>Given Frequency</th>
+                    <th>Calculated Frequency</th>
+                </tr>
+                <tr style="background-color:whitesmoke;">
+                    <td id="data" class="black">NULL</td>
+                    <td id="number" class="black">NULL</td>
+                    <td id="number2" class="black">NULL</td>
+                </tr>
+            </table>
         </div>
         <div class="right">
             <textarea name="" id="Code" cols="101" rows="27" placeholder="Enter the code here..."></textarea>

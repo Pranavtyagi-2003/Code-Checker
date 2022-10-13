@@ -66,6 +66,34 @@ textarea {
 .enter-value{
     display: flex;
 }
-#number{
+/* #number{
     margin-left: 1.5rem;
 }
+#number2{
+    margin-left: 1.5rem;
+} */
+.headings{
+    display: flex;
+}
+.enter-value{
+    display: flex;
+}
+.table{
+    margin-top: 2rem;
+    width: 90%;
+    height: 10vh;
+    text-align: center;
+  }
+  table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+  }
+  .green{
+    color: green;
+  }
+  .red{
+    color: red;
+  }
+  .black{
+    color: black;
+  }
