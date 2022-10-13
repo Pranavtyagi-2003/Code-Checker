@@ -1,3 +1,7 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
 .head{
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -96,4 +100,24 @@ textarea {
   }
   .black{
     color: black;
+  }
+  @media (max-width:768px){
+    .content{
+        width: 100%;
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+        margin-left: 0rem;
+    }
+    .head{
+        width: 100%;
+    }
+    .textarea{
+        width: 100%;
+        height: 68vh;
+    }
   }
