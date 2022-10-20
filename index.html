@@ -7,15 +7,25 @@
     <script src="jquery.js"></script>
     <title>Document</title>
 </head>
-<body>
-    <div class="head">
-        <h1>Code <span>Checker</span></h1>
+<body >
+    <div class="background">
+         <div class="head waviy">
+        <h1>Code 
+            <span style="--i:1">C</span>
+            <span style="--i:2">h</span>
+            <span style="--i:3">e</span>
+            <span style="--i:4">c</span>
+            <span style="--i:5">k</span>
+            <span style="--i:6">e</span>
+            <span style="--i:7">r</span>
+        </h1>
     </div>
     <div class="content">
         <div class="left">
-            <input type="input" class="form-field" placeholder="Enter the HTML Tags One By One" name="name" id='Value' required"/>
-            <input type="input" class="form-field" placeholder="How Many Times It Should Present" name="freq" id='freq' required"/>
-            <button type="submit" onclick="add()" class="submit-btn">Add</button>
+            <input type="input" class="form-field" placeholder="Enter the HTML Tag" name="name" id='Value' required"/>
+            <input type="input" class="form-field" placeholder="Count of Tag" name="freq" id='freq' required"/>
+            <!-- <button type="submit" onclick="add()" class="submit-btn">Add</button> -->
+            <button class="button-62 submit-btn" role="button" onclick="add()">Add</button>
             <table class="table">
                 <tr style="background-color: black;color: white;">
                     <th>Tags</th>
@@ -30,14 +40,17 @@
             </table>
         </div>
         <div class="right">
-            <textarea name="" id="Code" cols="101" rows="27" placeholder="Enter the code here..." class="textarea"></textarea>
+            <textarea name="" id="Code" cols="99" rows="27" placeholder="Enter the code here..." class="textarea"></textarea>
             <input type="file" class="file-upload" id="files" accept=".pdf , .txt" name="file">
             <p id="fileContent"></p>
         </div>
     </div>
     <div class="button">
-        <button type="submit" onclick="check()">Check</button>
-    </div>
+        <!-- <button type="submit" onclick="check()">Check</button> -->
+        <button class="button-71" role="button" onclick="check()">Check Code</button>
+    </div> 
     <script src="CodeChecker.js"></script>
+    </div>
+   
 </body>
 </html>

@@ -90,25 +90,27 @@ function check() {
         document.getElementById("number2").innerHTML = res2.map(item => {
             return item + '<br>';
         }).join("<br>")
-        // document.getElementById("data").className = col.map(item => {
-        //             if (item == 1) {
-        //             var set1 = document.getElementById('data');
-        //             var set2 = document.getElementById('number');
-        //             var set3 = document.getElementById('number2');
-        //             set1.className = 'red'
-        //             set2.className = 'red'
-        //             set3.className = 'red'
-        //          }
-        //          else if (item == 2) {
-        //             var set1 = document.getElementById('data');
-        //             var set2 = document.getElementById('number');
-        //             var set3 = document.getElementById('number2');
-        //             set1.className = 'green'
-        //             set2.className = 'green'
-        //             set3.className = 'green'
-        //          }
+        col.map((item,index) => {  
+                       console.log(item,index);
+                //     if (item == "1") {
+                //     // var set1 = document.getElementById('data');
+                //     // var set2 = document.getElementById('number');
+                //     var set3 = document.getElementById('number2');
+                //     // set1.className = 'red'
+                //     // set2.className = 'red'
+                //     set3.className = 'red'
+                //  }
+                //  else if (item == "2") {
+                //     // var set1 = document.getElementById('data');
+                //     // var set2 = document.getElementById('number');
+                //     var set3 = document.getElementById('number2');
+                //     // set1.className = 'green'
+                //     // set2.className = 'green'
+                //     set3.className = 'green'
+                //  }
             
-        // })
+        })
+
         if (flag == 0) {
             alert("Code is correct");
         }
