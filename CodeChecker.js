@@ -119,3 +119,19 @@ function check() {
         alert("Please enter the both fields")
     }
 }
+
+
+
+//For Input files 
+
+document.getElementById('files')
+            .addEventListener('change', function() {
+              
+            var fr=new FileReader();
+            fr.onload=function(){
+                document.getElementById('Code')
+                        .textContent=fr.result;
+            }
+              
+            fr.readAsText(this.files[0]);
+        })
