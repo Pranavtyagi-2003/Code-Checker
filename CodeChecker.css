@@ -203,11 +203,11 @@ textarea {
         flex-direction: column;
     }
     .left{
-        width: 100%;
+        width: 90%;
     }
     .right{
-        width: 100%;
-        margin-left: 0rem;
+        width: 90%;
+        margin-left: 1rem;
     }
     .head{
         width: 100%;
